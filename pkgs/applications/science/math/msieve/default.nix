@@ -2,11 +2,11 @@
 
 stdenv.mkDerivation rec {
   pname = "msieve";
-  version = "r1051";
+  version = "1051";
 
   src = fetchsvn {
     url = "svn://svn.code.sf.net/p/msieve/code/trunk";
-    rev = "1051";
+    rev = version;
     hash = "sha256-PUCMlCh3RghJvaN598kKJBl1HlGgZzQ3GQ2KtsmXtis=";
   };
 
